@@ -1,0 +1,781 @@
+   body {
+     width: 100vw;
+     height: 100%;
+     margin: 0 auto;
+     position: absolute;
+     background: #EADFC3;
+   }
+   #cursor {
+     position: absolute;
+     height: 20px;
+     width: 20px;
+     border-radius: 50%/50%;
+     animation: color_change 4s infinite;
+   }
+   @keyframes color_change {
+     0% {background-color: #3764E5;}
+     25% {background-color: #EEB1D2;}
+     50% {background-color: #93BBA0;}
+     75% {background-color: #F97755;}
+     100% {background-color: #E6C157;}
+   }
+   .none {
+     display: none;
+   }
+   .s1{
+     position: absolute;
+     width: 7vw;
+     height: 6vw;
+     left: 55vw;
+     top: 2vw;
+     animation: s1 1s linear infinite;
+     animation-direction: alternate;
+    transform: rotate(32deg);
+   }
+   @keyframes s1 {
+     0% {scale:0.7;}
+     100% {scale:1;}
+   }
+   .s2 {
+     position: absolute;
+     width: 7vw;
+     height: 6vw;
+     left: 2vw;
+     top: 17vw;
+     animation: s2 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(15deg);
+   }
+  @keyframes s2 {
+     0% {scale:0.7;}
+     100% {scale:1;}
+   }
+   .s3 {
+     position: absolute;
+     width: 7vw;
+     height: 6vw;
+     left: 34vw;
+     top: 12vw;
+     animation: s3 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(-20deg);
+   }
+   @keyframes s3 {
+     0% {scale:0.7;}
+     100% {scale:1;}
+   }
+   .s4 {
+     position: absolute;
+     width: 7vw;
+     height: 6vw;
+     left: 56vw;
+     top: 16vw;
+     animation: s4 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(17deg);
+   }
+   @keyframes s4 {
+     0% {scale:0.7;}
+     100% {scale:1;}
+   }
+   .s5 {
+     position: absolute;
+     width: 7vw;
+     height: 6vw;
+     left: 84vw;
+     top: 11vw;
+     animation: s5 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(18deg);
+   }
+   @keyframes s5 {
+     0% {scale:0.7;}
+     100% {scale:1;}
+   }
+   .s6 {
+     position: absolute;
+     width: 7vw;
+     height: 6vw;
+     left: 8vw;
+     top: 35vw;
+     animation: s6 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(-29deg);
+   }
+   @keyframes s6 {
+     0% {scale:0.7;}
+     100% {scale:1;}
+   }
+   .s7 {
+     position: absolute;
+     width: 7vw;
+     height: 6vw;
+     left: 5vw;
+     top: 50vw;
+     animation: s7 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(34deg);
+   }
+   @keyframes s7 {
+     0% {scale:0.7;}
+     100% {scale:1;}
+   }
+   .s8 {
+     position: absolute;
+     width: 7vw;
+     height: 6vw;
+     left: 25vw;
+     top: 45vw;
+     animation: s8 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(-8deg);
+   }
+   @keyframes s8 {
+     0% {scale:0.7;}
+     100% {scale:1;}
+   }
+   .s9 {
+     position: absolute;
+     width: 7vw;
+     height: 6vw;
+     left: 68vw;
+     top: 48vw;
+     animation: s9 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(-20deg);
+   }
+   @keyframes s9 {
+     0% {scale:0.7;}
+     100% {scale:1;}
+   }
+   .s10 {
+     position: absolute;
+     width: 7vw;
+     height: 6vw;
+     left: 90vw;
+     top: 40vw;
+     animation: s10 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(10deg);
+   }
+   @keyframes s10 {
+     0% {scale:0.7;}
+     100% {scale:1;}
+   }
+   .title {
+     position: absolute;
+     width: 98vw;
+     height: 18vw;
+     left:0.5vw;
+     top:-1vw;
+     animation: title 2s linear infinite;
+   }
+   @keyframes title {
+     0% {opacity: 1;}
+     25% {opacity: 0;}
+     50% {opacity: 0;}
+     100% {opacity: 0;}
+   }
+   .title2{
+     position: absolute;
+     width: 98vw;
+     height: 18vw;
+     left:0.5vw;
+     top:-1vw;
+     animation: title2 2s linear infinite;
+   }
+   @keyframes title2 {
+     0% {opacity: 0;}
+     25% {opacity: 1;}
+     50% {opacity: 0;}
+     100% {opacity: 0;}
+   }
+   .title3 {
+     position: absolute;
+     width: 98vw;
+     height: 18vw;
+     left:0.5vw;
+     top:-1vw;
+     animation: title3 2s linear infinite;
+   }
+   @keyframes title3 {
+     0% {opacity: 0;}
+     25% {opacity: 0;}
+     50% {opacity: 1;}
+     100% {opacity: 0;}
+   }
+   .title4 {
+     position: absolute;
+     width: 98vw;
+     height: 18vw;
+     left:0.5vw;
+     top:-1vw;
+     animation: title4 2s linear infinite;
+   }
+   @keyframes title4 {
+     0% {opacity: 0;}
+     25% {opacity: 0;}
+     50% {opacity: 0;}
+     100% {opacity: 1;}
+  }
+   .container {
+     display: flex;
+     flex-direction: row;
+   }
+   .container1 {
+     display: flex;
+     flex-direction: row;
+   }
+   h3 {
+     font-family: "Nunito-Black";
+     font-size:1.25vw;
+     color: #90C4D9;
+     padding-left:27vw;
+     padding-top: 18vw;
+   }
+   h4 {
+     font-family: "Nunito-Black";
+     font-size: 1.25vw;
+     color: #3764E5;
+     padding-left: 13vw;
+     padding-top: 18vw;
+   }
+   h5 {
+     font-family: "Nunito-Black";
+     font-size: 1.25vw;
+     color: #F39627;
+     padding-left: 12.5vw;
+     padding-top: 18vw;
+   }
+   .c1 {
+     position: absolute;
+     width: 18vw;
+     height: 22vw;
+     left: 20.5vw;
+     top: 22vw;
+   }
+   .c2 {
+     position: absolute;
+     width: 18vw;
+     height: 22vw;
+     left: 40vw;
+     top: 22vw;
+   }
+   .c3 {
+     position: absolute;
+     width: 18vw;
+     height: 22vw;
+     left: 60vw;
+     top: 22vw;
+   }
+   .button{
+     position: absolute;
+     width: 23vw;
+     height:5vw;
+     top: 46vw;
+     left: 37vw;
+   }
+   .button1 {
+     position: absolute;
+     width: 23vw;
+     height:5vw;
+     top: 46vw;
+     left: 37vw;
+   }
+   .button:hover {
+     animation: button 5s linear;
+     animation-direction: alternate;
+   }
+   @keyframes button {
+     0% {opacity: 1;}
+     50% {opacity: 0;}
+   }
+   .titlescreen2 {
+     position: absolute;
+     width: 69vw;
+     height: 18vw;
+     left:16vw;
+   }
+   .kotel {
+     position: absolute;
+     width: 28vw;
+     height: 22vw;
+     top:24vw;
+     left:37vw;
+     z-index: 5;
+   }
+   .pena {
+     position: absolute;
+     width: 30vw;
+     height: 11vw;
+     top:19vw;
+     left:35.5vw;
+     z-index: 6;
+   }
+   .pena1 {
+     position: absolute;
+     width: 30vw;
+     height: 11vw;
+     top:19vw;
+     left:35.5vw;
+     z-index: 6;
+   }
+   .pena2 {
+     position: absolute;
+     width: 30vw;
+     height: 11vw;
+     top:19vw;
+     left:35.5vw;
+     z-index: 6;
+   }
+   .pena3 {
+     position: absolute;
+     width: 30vw;
+     height: 11vw;
+     top:19vw;
+     left:35.5vw;
+     z-index: 6;
+   }
+   .pena4 {
+     position: absolute;
+     width: 30vw;
+     height: 11vw;
+     top:19vw;
+     left:35.5vw;
+     z-index: 6;
+   }
+   .pena5 {
+     position: absolute;
+     width: 30vw;
+     height: 11vw;
+     top:19vw;
+     left:35.5vw;
+     z-index: 6;
+   }
+   .boble {
+     position: absolute;
+     width: 6vw;
+     height: 8vw;
+     top:22vw;
+     left:38vw;
+     animation: none;
+     z-index: 0;
+   }
+   @keyframes boble {
+     0% {opacity: 0; transform: translateY(0);}
+     50% {opacity: 1; transform: translateY(-10vw) translateX(-2vw);}
+     100% {opacity: 0; transform: translateY(0);}
+   }
+   .boble1 {
+     position: absolute;
+     width: 6vw;
+     height: 8vw;
+     top:22vw;
+     left:38vw;
+     z-index: 4;
+     animation: none;
+     animation-delay: 1s;
+   }
+   @keyframes boble1 {
+     0% {opacity: 1; transform: translateY(0);}
+     50% {opacity: 0; transform: translateY(-10vw) translateX(-2vw);}
+     100% {opacity: 1; transform: translateY(0);}
+   }
+   .palka {
+     position: absolute;
+     width: 5vw;
+     height: 10vw;
+     top:15vw;
+     left:52vw;
+     animation: none;
+   }
+   @keyframes palka {
+     0% {transform: translateY(0);}
+     50% { transform:translateY(0) translateX(-5vw);;}
+     100% {transform:translateY(0)translateX(0);}
+   }
+   .obj1 {
+     position: absolute;
+     width: 17vw;
+     height: 26vw;
+     top:3vw;
+   }
+   .dote1 {
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 24vw;
+     left: 1vw;
+   }
+   .bubble1 {
+     position: absolute;
+     width: 13vw;
+     height: 12vw;
+     top: 16vw;
+     left: 1vw;
+   }
+   .obj2 {
+     position: absolute;
+     width: 10vw;
+     height: 9vw;
+     top:11vw;
+     left: 15vw;
+   }
+   .dote2 {
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 11vw;
+     left: 24vw;
+   }
+   .bubble2 {
+     position: absolute;
+     width: 12vw;
+     height: 6vw;
+     top: 11vw;
+     left: 23.5vw;
+   }
+   .obj3 {
+     position: absolute;
+     width: 10vw;
+     height: 10vw;
+     top:25vw;
+     left: 10vw;
+   }
+   .dote3 {
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 33vw;
+     left: 10vw;
+   }
+   .bubble3 {
+     position: absolute;
+     width: 9vw;
+     height: 6vw;
+     top: 31vw;
+     left: 1vw;
+   }
+   .obj4 {
+     position: absolute;
+     width: 9vw;
+     height: 8vw;
+     top:20vw;
+     left: 19vw;
+   }
+   .dote4 {
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 27vw;
+     left: 26vw;
+   }
+   .bubble4 {
+     position: absolute;
+     width: 7vw;
+     height: 6vw;
+     top: 26vw;
+     left: 27.5vw;
+   }
+   .obj5 {
+     position: absolute;
+     width: 18vw;
+     height: 20vw;
+     top:37vw;
+     left: 1vw;
+   }
+   .dote5 {
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 47vw;
+     left: 12vw;
+   }
+   .bubble5 {
+     position: absolute;
+     width: 15vw;
+     height: 14vw;
+     top: 44vw;
+     left: 11.5vw;
+   }
+   .obj6 {
+     position: absolute;
+     width: 17vw;
+     height: 17vw;
+     top:31vw;
+     left: 17vw;
+   }
+   .dote6 {
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 45vw;
+     left: 26vw;
+   }
+   .bubble6 {
+     position: absolute;
+     width: 9vw;
+     height: 6vw;
+     top: 41vw;
+     left: 28vw;
+   }
+   .obj7 {
+     position: absolute;
+     width: 9vw;
+     height: 9vw;
+     top:46vw;
+     left: 35vw;
+   }
+   .dote7 {
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 52vw;
+     left: 34vw;
+   }
+   .bubble7 {
+     position: absolute;
+     width: 8vw;
+     height: 5vw;
+     top: 49vw;
+     left: 26vw;
+   }
+   .obj8 {
+     position: absolute;
+     width: 23vw;
+     height: 13vw;
+     top:43vw;
+     left: 46.5vw;
+   }
+   .dote8 {
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 49.5vw;
+     left: 66vw;
+   }
+   .bubble8 {
+     position: absolute;
+     width: 9vw;
+     height: 6vw;
+     top: 49vw;
+     left: 67.5vw;
+   }
+   .obj9 {
+     position: absolute;
+     width: 20vw;
+     height: 26vw;
+     top:31vw;
+     left: 78vw;
+   }
+   .dote9 {
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 46vw;
+     left: 84vw;
+   }
+   .bubble9 {
+     position: absolute;
+     width: 10vw;
+     height: 7vw;
+     top: 47.5vw;
+     left: 78vw;
+   }
+   .obj10 {
+     position: absolute;
+     width: 18vw;
+     height: 18vw;
+     top:31vw;
+     left: 63vw;
+   }
+   .dote10 {
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 33vw;
+     left: 73vw;
+   }
+   .bubble10 {
+     position: absolute;
+     width: 9vw;
+     height: 6vw;
+     top: 34vw;
+     left: 74.5vw;
+   }
+   .obj11 {
+     position: absolute;
+     width: 10vw;
+     height: 10vw;
+     top:27vw;
+     left: 89vw;
+   }
+   .dote11 {
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 29vw;
+     left: 90vw;
+   }
+   .bubble11 {
+     position: absolute;
+     width: 8vw;
+     height: 6vw;
+     top: 29.5vw;
+     left: 82vw;
+   }
+   .obj12 {
+     position: absolute;
+     width: 18vw;
+     height: 18vw;
+     top:15vw;
+     left: 65vw;
+   }
+   .dote12 {
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 22vw;
+     left: 82vw;
+   }
+   .bubble12 {
+     position: absolute;
+     width: 10vw;
+     height: 5vw;
+     top: 22.5vw;
+     left: 83.5vw;
+   }
+   .obj13 {
+     position: absolute;
+     width: 15vw;
+     height: 23vw;
+     top:3vw;
+     left: 85vw;
+   }
+   .dote13 {
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 19vw;
+     left: 87vw;
+   }
+   .bubble13 {
+     position: absolute;
+     width: 10vw;
+     height: 7vw;
+     top: 16vw;
+     left: 88.5vw;
+   }
+   .fon1 {
+     width: 100vw;
+     left: 0vw;
+     height: 57vw;
+     position: absolute;
+     animation: fon1 3s linear infinite;
+   }
+   @keyframes fon1 {
+     0% {opacity: 1;}
+     25% {opacity: 0;}
+     50% {opacity: 0;}
+     100% {opacity: 0;}
+   }
+   .fon2 {
+     width: 100vw;
+     left: 0vw;
+     height: 57vw;
+     position: absolute;
+     animation: fon2 3s linear infinite;
+   }
+   @keyframes fon2 {
+     0% {opacity: 0;}
+     25% {opacity: 1;}
+     50% {opacity: 0;}
+     100% {opacity: 0;}
+   }
+   .fon3 {
+     width: 100vw;
+     left: 0vw;
+     height: 57vw;
+     position: absolute;
+     animation: fon3 3s linear infinite;
+   }
+   @keyframes fon3 {
+     0% {opacity: 0;}
+     25% {opacity: 0;}
+     50% {opacity: 1;}
+     100% {opacity: 0;}
+   }
+   .fon4 {
+     width: 100vw;
+     left: 0vw;
+     height: 57vw;
+     position: absolute;
+      animation: fon4 3s linear infinite;
+   }
+   @keyframes fon4 {
+     0% {opacity: 0;}
+     25% {opacity: 0;}
+     50% {opacity: 0;}
+     100% {opacity: 1;}
+   }
+   .bottle {
+     width: 48vw;
+     left: 26vw;
+     top: 11vw;
+     height: 46vw;
+     position: absolute;
+     animation: bottle 2s linear infinite;
+   }
+   @keyframes bottle {
+     0% {transform: rotate(0deg);}
+     50% {transform: rotate(5deg);}
+     100% {transform: rotate(0deg);}
+   }
+   .titlescreen3 {
+     width: 64vw;
+     left: 24vw;
+     top: 0vw;
+     height: 14vw;
+     position: absolute;
+   }
+   .text1 {
+     width: 13vw;
+     left: 2vw;
+     top: 49vw;
+     height: 6vw;
+     position: absolute;
+   }
+   .text2 {
+     width: 13vw;
+     left: 85vw;
+     top: 50vw;
+     height: 5vw;
+     position: absolute;
+   }
+   .etiketka1 {
+     width: 17vw;
+     left: 58vw;
+     top: 18vw;
+     height: 15vw;
+     position: absolute;
+   }
+  .etiketka2 {
+     width: 32vw;
+     left: 67vw;
+     top: 14vw;
+     height: 26vw;
+     position: absolute;
+     animation: etiketka2 2s linear infinite;
+   }
+   @keyframes etiketka2 {
+     0% {transform: rotate(0deg);}
+     50% {transform: rotate(10deg);}
+     100% {transform: rotate(0deg);}
+   }
+  .b {
+     width: 14vw;
+     left: 2vw;
+     top: 40vw;
+     height: 6vw;
+     position: absolute;
+   }

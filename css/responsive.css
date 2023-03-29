@@ -1,0 +1,1866 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+   .s1 {
+     position: absolute;
+     width: 12vw;
+     height: 11vw;
+     left: 55vw;
+     top: 8vw;
+     animation: s1 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(32deg);
+   }
+   .s2 {
+     position: absolute;
+     width: 12vw;
+     height: 11vw;
+     left: 5vw;
+     top: 26vw;
+     animation: s2 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(15deg);
+   }
+   .s3 {
+     position: absolute;
+     width: 12vw;
+     height:11vw;
+     left: 25vw;
+     top: 42vw;
+     animation: s3 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(-20deg);
+   }
+   .s4 {
+     position: absolute;
+     width: 12vw;
+     height: 11vw;
+     left: 60vw;
+     top: 34vw;
+     animation: s4 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(17deg);
+   }
+   .s5 {
+     position: absolute;
+     width: 12vw;
+     height: 11vw;
+     left: 84vw;
+     top: 21vw;
+     animation: s5 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(18deg);
+   }
+   .s6 {
+     position: absolute;
+     width: 12vw;
+     height: 11vw;
+     left: 7vw;
+     top: 94vw;
+     animation: s6 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(-29deg);
+  }
+  .s7{
+     position: absolute;
+     width: 12vw;
+     height: 11vw;
+     left: 13vw;
+     top: 117vw;
+     animation: s6 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(-29deg);
+   }
+   .s8{
+     position: absolute;
+     width: 12vw;
+     height: 11vw;
+     left: 45vw;
+     top: 120vw;
+     animation: s8 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(-8deg);
+   }
+   .s9{
+     position: absolute;
+     width: 12vw;
+     height: 11vw;
+     left: 72vw;
+     top: 113vw;
+     animation: s9 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(-20deg);
+   }
+   .s10{
+     position: absolute;
+     width: 12vw;
+     height: 11vw;
+     left: 83vw;
+     top: 94vw;
+     animation: s9 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(-20deg);
+   }
+   .title{
+     position: absolute;
+     width: 95vw;
+     height: 18vw;
+     left:2vw;
+     top:10vw;
+     animation: title 2s linear infinite;
+   }
+   .title2{
+     position: absolute;
+     width: 95vw;
+     height: 18vw;
+     left:2vw;
+     top:10vw;
+     animation: title2 2s linear infinite;
+   }
+   .title3{
+     position: absolute;
+     width: 95vw;
+     height: 18vw;
+     left:2vw;
+     top:10vw;
+     animation: title3 2s linear infinite;
+   }
+   .title4{
+     position: absolute;
+     width: 95vw;
+     height: 18vw;
+     left:2vw;
+     top:10vw;
+     animation: title4 2s linear infinite;
+   }
+   h3{
+     font-family: "Nunito-Black";
+     font-size:2vw;
+     color: #90C4D9;
+     padding-left:13vw;
+     padding-top: 50vw;
+   }
+   h4{
+     font-family: "Nunito-Black";
+     font-size: 2vw;
+     color: #3764E5;
+     padding-left: 23vw;
+     padding-top: 50vw;
+   }
+   h5{
+     font-family: "Nunito-Black";
+     font-size: 2vw;
+     color: #F39627;
+     padding-left: 21vw;
+     padding-top: 50vw;
+   }
+   .c1{
+     position: absolute;
+     width: 31vw;
+     height: 34vw;
+     left: 2vw;
+     top: 56vw;
+   }
+   .c2{
+     position: absolute;
+     width: 31vw;
+     height: 34vw;
+     left: 34vw;
+     top: 56vw;
+   }
+   .c3{
+     position: absolute;
+     width: 31vw;
+     height: 34vw;
+     left: 66vw;
+     top: 56vw;
+   }
+   .button{
+     position: absolute;
+     width: 38vw;
+     height:9vw;
+     top: 105vw;
+     left: 31vw;
+   }
+   .button1{
+     position: absolute;
+     width: 38vw;
+     height:9vw;
+     top: 105vw;
+     left: 31vw;
+   }
+   .titlescreen2{
+     position: absolute;
+     width: 72vw;
+     height: 19vw;
+     left:13vw;
+     top:8vw;
+   }
+   .kotel{
+     position: absolute;
+     width: 40vw;
+     height: 31vw;
+     top:58vw;
+     left:30vw;
+     z-index: 5;
+   }
+   .pena{
+     position: absolute;
+     width: 43vw;
+     height: 15vw;
+     top:50vw;
+     left:28vw;
+     z-index: 6;
+   }
+   .pena1{
+     position: absolute;
+     width: 43vw;
+     height: 15vw;
+     top:50vw;
+     left:28vw;
+     z-index: 6;
+   }
+   .pena2{
+     position: absolute;
+     width: 43vw;
+     height: 15vw;
+     top:50vw;
+     left:28vw;
+     z-index: 6;
+   }
+   .pena3{
+     position: absolute;
+     width: 43vw;
+     height: 15vw;
+     top:50vw;
+     left:28vw;
+     z-index: 6;
+   }
+   .pena4{
+     position: absolute;
+     width: 43vw;
+     height: 15vw;
+     top:50vw;
+     left:28vw;
+     z-index: 6;
+   }
+   .pena5{
+     position: absolute;
+     width: 43vw;
+     height: 15vw;
+     top:50vw;
+     left:28vw;
+     z-index: 6;
+   }
+   .boble{
+     position: absolute;
+     width: 6vw;
+     height: 8vw;
+     top:50vw;
+     left:41vw;
+     animation: none;
+     z-index: 0;
+   }
+   .boble1{
+     position: absolute;
+     width: 6vw;
+     height: 8vw;
+     top:50vw;
+     left:41vw;
+     z-index: 4;
+     animation: none;
+     animation-delay: 1s;
+   }
+   .palka{
+     position: absolute;
+     width: 4vw;
+     height: 12vw;
+     top:45vw;
+     left:57vw;
+     animation: none;
+   }
+   .obj1 {
+     position: absolute;
+     width: 26vw;
+     height: 34vw;
+     top:20vw;
+   }
+   .dote1{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 48vw;
+     left: 2vw;
+   }
+   .bubble1{
+     position: absolute;
+     width: 16vw;
+     height: 15vw;
+     top: 38vw;
+     left: 1vw;
+   }
+   .obj2{
+     position: absolute;
+     width: 13vw;
+     height: 12vw;
+     top:35vw;
+     left: 22vw;
+   }
+   .dote2{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top:36vw;
+     left: 34vw;
+   }
+   .bubble2{
+     position: absolute;
+     width: 15vw;
+     height: 9vw;
+     top: 29vw;
+     left: 35vw;
+   }
+   .obj3{
+     position: absolute;
+     width: 13vw;
+     height: 13vw;
+     top:71vw;
+     left: 4vw;
+   }
+   .dote3{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 83vw;
+     left: 4vw;
+   }
+   .bubble3{
+     position: absolute;
+     width: 12vw;
+     height: 9vw;
+     top: 84vw;
+     left: 1vw;
+   }
+   .obj4{
+     position: absolute;
+     width: 12vw;
+     height: 11vw;
+     top:55vw;
+     left: 13vw;
+   }
+   .dote4{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 65vw;
+     left: 21vw;
+   }
+   .bubble4{
+     position: absolute;
+     width: 10vw;
+     height: 9vw;
+     top: 97vw;
+     left: 19vw;
+   }
+   .obj5{
+     position: absolute;
+     width: 32vw;
+     height: 34vw;
+     top:110vw;
+     left: 0vw;
+   }
+   .dote5{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 128vw;
+     left: 19vw;
+   }
+   .bubble5{
+     position: absolute;
+     width: 18vw;
+     height: 17vw;
+     top: 118vw;
+     left: 20vw;
+   }
+   .obj6{
+     position: absolute;
+     width: 22vw;
+     height: 21vw;
+     top:81vw;
+     left: 14vw;
+   }
+   .dote6{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 99vw;
+     left: 26vw;
+   }
+   .bubble6{
+     position: absolute;
+     width: 12vw;
+     height: 9vw;
+     top: 95vw;
+     left: 28vw;
+   }
+   .obj7{
+     position: absolute;
+     width: 15vw;
+     height: 15vw;
+     top:98vw;
+     left: 36vw;
+   }
+   .dote7{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 109vw;
+     left: 38vw;
+   }
+   .bubble7{
+     position: absolute;
+     width: 11vw;
+     height: 8vw;
+     top: 109vw;
+     left: 26vw;
+   }
+   .obj8{
+     position: absolute;
+     width: 33vw;
+     height: 19vw;
+     top:110vw;
+     left: 41vw;
+   }
+   .dote8{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 120vw;
+     left: 66vw;
+   }
+   .bubble8{
+     position: absolute;
+     width: 12vw;
+     height: 9vw;
+     top: 122vw;
+     left: 66vw;
+   }
+   .obj9{
+     position: absolute;
+     width: 36vw;
+     height: 43vw;
+     top:101vw;
+     left: 70vw;
+   }
+   .dote9{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 128vw;
+     left: 80vw;
+   }
+   .bubble9{
+     position: absolute;
+     width: 13vw;
+     height: 10vw;
+     top: 129vw;
+     left: 78vw;
+   }
+   .obj10{
+     position: absolute;
+     width: 23vw;
+     height: 22vw;
+     top:84vw;
+     left: 61vw;
+   }
+   .dote10{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 86vw;
+     left: 76vw;
+   }
+   .bubble10{
+     position: absolute;
+     width: 12vw;
+     height: 9vw;
+     top: 88vw;
+     left: 78vw;
+   }
+   .obj11{
+     position: absolute;
+     width: 14vw;
+     height: 13vw;
+     top:74vw;
+     left: 88vw;
+   }
+   .dote11{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 81vw;
+     left: 85vw;
+   }
+   .bubble11{
+     position: absolute;
+     width: 11vw;
+     height: 9vw;
+     top: 74vw;
+     left: 74vw;
+   }
+   .obj12{
+     position: absolute;
+     width: 21vw;
+     height: 20vw;
+     top:48vw;
+     left: 75vw;
+   }
+   .dote12{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 57vw;
+     left: 95vw;
+   }
+   .bubble12{
+     position: absolute;
+     width: 11vw;
+     height: 8vw;
+     top: 59vw;
+     left: 94vw;
+   }
+   .obj13{
+     position: absolute;
+     width: 20vw;
+     height: 25vw;
+     top:24vw;
+     left: 87vw;
+   }
+   .dote13{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 44vw;
+     left: 90vw;
+   }
+   .bubble13{
+     position: absolute;
+     width: 13vw;
+     height: 10vw;
+     top: 39vw;
+     left: 77vw;
+   }
+   .fon1{
+     width: 100vw;
+     left: 0vw;
+     height: 134vw;
+     position: absolute;
+     animation: fon1 3s linear infinite;
+   }
+   .fon2{
+     width: 100vw;
+     left: 0vw;
+     height: 134vw;
+     position: absolute;
+     animation: fon2 3s linear infinite;
+   }
+   .fon3{
+     width: 100vw;
+     left: 0vw;
+     height: 134vw;
+     position: absolute;
+     animation: fon3 3s linear infinite;
+   }
+   .fon4{
+     width: 100vw;
+     left: 0vw;
+     height: 134vw;
+     position: absolute;
+     animation: fon4 3s linear infinite;
+   }
+   .bottle{
+     width: 80vw;
+     left: 12vw;
+     top: 30vw;
+     height: 90vw;
+     position: absolute;
+     animation: bottle 2s linear infinite;
+   }
+   .titlescreen3{
+     width: 64vw;
+     left: 24vw;
+     top: 8vw;
+     height: 14vw;
+     position: absolute;
+   }
+   .text1{
+     width: 13vw;
+     left: 2vw;
+     top: 120vw;
+     height: 6vw;
+     position: absolute;
+   }
+   .text2{
+     width: 13vw;
+     left: 85vw;
+     top: 119vw;
+     height: 5vw;
+     position: absolute;
+   }
+   .etiketka1{
+     width: 17vw;
+     left: 50vw;
+     top: 42vw;
+     height: 15vw;
+     position: absolute;
+   }
+   .etiketka2{
+     width: 32vw;
+     left: 60vw;
+     top: 39vw;
+     height: 26vw;
+     position: absolute;
+     animation: etiketka2 2s linear infinite;
+   }
+   .b{
+     width: 14vw;
+     left: 2vw;
+     top: 110vw;
+     height: 6vw;
+     position: absolute;
+   }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+   .s1{
+     position: absolute;
+     width: 12vw;
+     height: 11vw;
+     left: 55vw;
+     top: 8vw;
+     animation: s1 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(32deg);
+   }
+   .s2{
+     position: absolute;
+     width: 12vw;
+     height: 11vw;
+     left: 5vw;
+     top: 26vw;
+     animation: s2 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(15deg);
+   }
+   .s3{
+     position: absolute;
+     width: 12vw;
+     height:11vw;
+     left: 25vw;
+     top: 42vw;
+     animation: s3 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(-20deg);
+   }
+   .s4{
+     position: absolute;
+     width: 12vw;
+     height: 11vw;
+     left: 60vw;
+     top: 34vw;
+     animation: s4 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(17deg);
+   }
+   .s5{
+     position: absolute;
+     width: 12vw;
+     height: 11vw;
+     left: 84vw;
+     top: 21vw;
+     animation: s5 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(18deg);
+   }
+   .s6{
+     position: absolute;
+     width: 12vw;
+     height: 11vw;
+     left: 7vw;
+     top: 94vw;
+     animation: s6 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(-29deg);
+   }
+   .s7{
+     position: absolute;
+     width: 12vw;
+     height: 11vw;
+     left: 13vw;
+     top: 117vw;
+     animation: s6 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(-29deg);
+   }
+   .s8{
+     position: absolute;
+     width: 12vw;
+     height: 11vw;
+     left: 45vw;
+     top: 120vw;
+     animation: s8 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(-8deg);
+   }
+   .s9{
+     position: absolute;
+     width: 12vw;
+     height: 11vw;
+     left: 72vw;
+     top: 113vw;
+     animation: s9 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(-20deg);
+   }
+   .s10{
+     position: absolute;
+     width: 12vw;
+     height: 11vw;
+     left: 83vw;
+     top: 94vw;
+     animation: s9 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(-20deg);
+   }
+   .title{
+      position: absolute;
+      width: 95vw;
+      height: 18vw;
+      left:2vw;
+      top:10vw;
+      animation: title 2s linear infinite;
+   }
+   .title2{
+      position: absolute;
+      width: 95vw;
+      height: 18vw;
+      left:2vw;
+      top:10vw;
+      animation: title2 2s linear infinite;
+   }
+   .title3{
+     position: absolute;
+     width: 95vw;
+     height: 18vw;
+     left:2vw;
+     top:10vw;
+     animation: title3 2s linear infinite;
+   }
+   .title4{
+     position: absolute;
+     width: 95vw;
+     height: 18vw;
+     left:2vw;
+     top:10vw;
+     animation: title4 2s linear infinite;
+   }
+   h3{
+     font-family: "Nunito-Black";
+     font-size:2vw;
+     color: #90C4D9;
+     padding-left:13vw;
+     padding-top: 50vw;
+   }
+   h4{
+     font-family: "Nunito-Black";
+     font-size: 2vw;
+     color: #3764E5;
+     padding-left: 23vw;
+     padding-top: 50vw;
+   }
+   h5{
+     font-family: "Nunito-Black";
+     font-size: 2vw;
+     color: #F39627;
+     padding-left: 21vw;
+     padding-top: 50vw;
+   }
+   .c1{
+     position: absolute;
+     width: 31vw;
+     height: 34vw;
+     left: 2vw;
+     top: 56vw;
+   }
+   .c2{
+     position: absolute;
+     width: 31vw;
+     height: 34vw;
+     left: 34vw;
+     top: 56vw;
+   }
+   .c3{
+     position: absolute;
+     width: 31vw;
+     height: 34vw;
+     left: 66vw;
+     top: 56vw;
+   }
+   .button{
+     position: absolute;
+     width: 38vw;
+     height:9vw;
+     top: 105vw;
+     left: 31vw;
+   }
+   .button1{
+     position: absolute;
+     width: 38vw;
+     height:9vw;
+     top: 105vw;
+     left: 31vw;
+   }
+   .titlescreen2{
+     position: absolute;
+     width: 72vw;
+     height: 19vw;
+     left:13vw;
+     top:8vw;
+   }
+   .kotel{
+     position: absolute;
+     width: 40vw;
+     height: 31vw;
+     top:58vw;
+     left:30vw;
+     z-index: 5;
+   }
+   .pena{
+     position: absolute;
+     width: 43vw;
+     height: 15vw;
+     top:50vw;
+     left:28vw;
+     z-index: 6;
+   }
+   .pena1{
+     position: absolute;
+     width: 43vw;
+     height: 15vw;
+     top:50vw;
+     left:28vw;
+     z-index: 6;
+   }
+   .pena2{
+     position: absolute;
+     width: 43vw;
+     height: 15vw;
+     top:50vw;
+     left:28vw;
+     z-index: 6;
+   }
+   .pena3{
+     position: absolute;
+     width: 43vw;
+     height: 15vw;
+     top:50vw;
+     left:28vw;
+     z-index: 6;
+   }
+   .pena4{
+     position: absolute;
+     width: 43vw;
+     height: 15vw;
+     top:50vw;
+     left:28vw;
+     z-index: 6;
+   }
+   .pena5{
+     position: absolute;
+     width: 43vw;
+     height: 15vw;
+     top:50vw;
+     left:28vw;
+     z-index: 6;
+   }
+   .boble{
+     position: absolute;
+     width: 6vw;
+     height: 8vw;
+     top:50vw;
+     left:41vw;
+     animation: none;
+     z-index: 0;
+   }
+   .boble1{
+     position: absolute;
+     width: 6vw;
+     height: 8vw;
+     top:50vw;
+     left:41vw;
+     z-index: 4;
+     animation: none;
+     animation-delay: 1s;
+   }
+   .palka{
+     position: absolute;
+     width: 4vw;
+     height: 12vw;
+     top:45vw;
+     left:57vw;
+     animation: none;
+   }
+   .obj1 {
+     position: absolute;
+     width: 26vw;
+     height: 34vw;
+     top:20vw;
+   }
+   .dote1{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 48vw;
+     left: 2vw;
+   }
+   .bubble1{
+     position: absolute;
+     width: 16vw;
+     height: 15vw;
+     top: 38vw;
+     left: 1vw;
+   }
+   .obj2{
+     position: absolute;
+     width: 13vw;
+     height: 12vw;
+     top:35vw;
+     left: 22vw;
+   }
+   .dote2{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top:36vw;
+     left: 34vw;
+   }
+   .bubble2{
+     position: absolute;
+     width: 15vw;
+     height: 9vw;
+     top: 29vw;
+     left: 35vw;
+   }
+   .obj3{
+     position: absolute;
+     width: 13vw;
+     height: 13vw;
+     top:71vw;
+     left: 4vw;
+   }
+   .dote3{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 83vw;
+     left: 4vw;
+   }
+   .bubble3{
+     position: absolute;
+     width: 12vw;
+     height: 9vw;
+     top: 84vw;
+     left: 1vw;
+   }
+   .obj4{
+     position: absolute;
+     width: 12vw;
+     height: 11vw;
+     top:55vw;
+     left: 13vw;
+   }
+   .dote4{
+      position: absolute;
+      width: 1.5vw;
+      height: 1.5vw;
+      top: 65vw;
+      left: 21vw;
+   }
+   .bubble4{
+     position: absolute;
+     width: 10vw;
+     height: 9vw;
+     top: 97vw;
+     left: 19vw;
+   }
+   .obj5{
+     position: absolute;
+     width: 32vw;
+     height: 34vw;
+     top:110vw;
+     left: 0vw;
+   }
+   .dote5{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 128vw;
+     left: 19vw;
+   }
+   .bubble5{
+     position: absolute;
+     width: 18vw;
+     height: 17vw;
+     top: 118vw;
+     left: 20vw;
+   }
+   .obj6{
+     position: absolute;
+     width: 22vw;
+     height: 21vw;
+     top:81vw;
+     left: 14vw;
+   }
+   .dote6{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 99vw;
+     left: 26vw;
+   }
+   .bubble6{
+     position: absolute;
+     width: 12vw;
+     height: 9vw;
+     top: 95vw;
+     left: 28vw;
+   }
+   .obj7{
+     position: absolute;
+     width: 15vw;
+     height: 15vw;
+     top:98vw;
+     left: 36vw;
+   }
+   .dote7{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 109vw;
+     left: 38vw;
+   }
+   .bubble7{
+     position: absolute;
+     width: 11vw;
+     height: 8vw;
+     top: 109vw;
+     left: 26vw;
+   }
+   .obj8{
+     position: absolute;
+     width: 33vw;
+     height: 19vw;
+     top:110vw;
+     left: 41vw;
+   }
+   .dote8{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 120vw;
+     left: 66vw;
+   }
+   .bubble8{
+     position: absolute;
+     width: 12vw;
+     height: 9vw;
+     top: 122vw;
+     left: 66vw;
+  }
+   .obj9{
+     position: absolute;
+     width: 36vw;
+     height: 43vw;
+     top:101vw;
+     left: 70vw;
+   }
+   .dote9{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 128vw;
+     left: 80vw;
+   }
+   .bubble9{
+     position: absolute;
+     width: 13vw;
+     height: 10vw;
+     top: 129vw;
+     left: 78vw;
+   }
+   .obj10{
+     position: absolute;
+     width: 23vw;
+     height: 22vw;
+     top:84vw;
+     left: 61vw;
+   }
+   .dote10{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 86vw;
+     left: 76vw;
+   }
+   .bubble10{
+     position: absolute;
+     width: 12vw;
+     height: 9vw;
+     top: 88vw;
+     left: 78vw;
+   }
+   .obj11{
+     position: absolute;
+     width: 14vw;
+     height: 13vw;
+     top:74vw;
+     left: 88vw;
+   }
+   .dote11{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 81vw;
+     left: 85vw;
+   }
+   .bubble11{
+     position: absolute;
+     width: 11vw;
+     height: 9vw;
+     top: 74vw;
+     left: 74vw;
+   }
+   .obj12{
+     position: absolute;
+     width: 21vw;
+     height: 20vw;
+     top:48vw;
+     left: 75vw;
+   }
+   .dote12{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 57vw;
+     left: 95vw;
+   }
+   .bubble12{
+     position: absolute;
+     width: 11vw;
+     height: 8vw;
+     top: 59vw;
+     left: 94vw;
+   }
+   .obj13{
+     position: absolute;
+     width: 20vw;
+     height: 25vw;
+     top:24vw;
+     left: 87vw;
+   }
+   .dote13{
+     position: absolute;
+     width: 1.5vw;
+     height: 1.5vw;
+     top: 44vw;
+     left: 90vw;
+   }
+   .bubble13{
+     position: absolute;
+     width: 13vw;
+     height: 10vw;
+     top: 39vw;
+     left: 77vw;
+   }
+   .fon1{
+     width: 100vw;
+     left: 0vw;
+     height: 134vw;
+     position: absolute;
+     animation: fon1 3s linear infinite;
+   }
+   .fon2{
+     width: 100vw;
+     left: 0vw;
+     height: 134vw;
+     position: absolute;
+     animation: fon2 3s linear infinite;
+   }
+   .fon3{
+     width: 100vw;
+     left: 0vw;
+     height: 134vw;
+     position: absolute;
+     animation: fon3 3s linear infinite;
+   }
+   .fon4{
+     width: 100vw;
+     left: 0vw;
+     height: 134vw;
+     position: absolute;
+     animation: fon4 3s linear infinite;
+   }
+   .bottle{
+     width: 80vw;
+     left: 12vw;
+     top: 30vw;
+     height: 90vw;
+     position: absolute;
+     animation: bottle 2s linear infinite;
+   }
+   .titlescreen3{
+     width: 64vw;
+     left: 24vw;
+     top: 8vw;
+     height: 14vw;
+     position: absolute;
+   }
+   .text1{
+     width: 13vw;
+     left: 2vw;
+     top: 120vw;
+     height: 6vw;
+     position: absolute;
+   }
+   .text2{
+     width: 13vw;
+     left: 85vw;
+     top: 119vw;
+     height: 5vw;
+     position: absolute;
+   }
+   .etiketka1{
+     width: 17vw;
+     left: 50vw;
+     top: 42vw;
+     height: 15vw;
+     position: absolute;
+   }
+   .etiketka2{
+     width: 32vw;
+     left: 60vw;
+     top: 39vw;
+     height: 26vw;
+     position: absolute;
+     animation: etiketka2 2s linear infinite;
+   }
+   .b{
+     width: 14vw;
+     left: 2vw;
+     top: 110vw;
+     height: 6vw;
+     position: absolute;
+   }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+   .back{
+     position: absolute;
+     width: 100vw;
+     height: 179vw;
+     left: 0vw;
+     top: -8vw;
+     animation: back 1s linear infinite;
+     animation-direction: alternate;
+   }
+   .container{
+     display: flex;
+     flex-direction: column;
+   }
+   h3{
+     font-family: "Nunito-Black";
+     font-size:3vw;
+     color: #90C4D9;
+     padding-left:43vw;
+     padding-top: 40vw;
+   }
+   h4{
+     font-family: "Nunito-Black";
+     font-size: 3vw;
+     color: #3764E5;
+     padding-left: 43vw;
+     padding-top: 48vw;
+   }
+   h5{
+     font-family: "Nunito-Black";
+     font-size: 3vw;
+     color: #F39627;
+     padding-left: 43vw;
+     padding-top: 45vw;
+   }
+   .c1{
+     position: absolute;
+     width: 32vw;
+     height: 36vw;
+     left: 34vw;
+     top: 49vw;
+   }
+   .c2{
+     position: absolute;
+     width: 32vw;
+     height: 36vw;
+     left: 34vw;
+     top: 97vw;
+   }
+   .c3{
+     position: absolute;
+     width: 32vw;
+     height: 36vw;
+     left: 35vw;
+     top: 145vw;
+   }
+   .button{
+     position: absolute;
+     width: 38vw;
+     height:9vw;
+     top: 189vw;
+     left: 31vw;
+   }
+   .button1{
+     position: absolute;
+     width: 38vw;
+     height:9vw;
+     top: 189vw;
+     left: 31vw;
+   }
+   .titlescreen2{
+     position: absolute;
+     width: 72vw;
+     height: 19vw;
+     left:19vw;
+     top:8vw;
+   }
+   .kotel{
+     position: absolute;
+     width: 55vw;
+     height: 42vw;
+     top:97vw;
+     left:30vw;
+     z-index: 5;
+   }
+   .pena{
+     position: absolute;
+     width: 58vw;
+     height: 20vw;
+     top:84vw;
+     left:28vw;
+     z-index: 6;
+   }
+   .pena2{
+     position: absolute;
+     width: 58vw;
+     height: 20vw;
+     top:84vw;
+     left:28vw;
+     z-index: 6;
+   }
+   .pena3{
+     position: absolute;
+     width: 58vw;
+     height: 20vw;
+     top:84vw;
+     left:28vw;
+     z-index: 6;
+   }
+   .pena4{
+     position: absolute;
+     width: 58vw;
+     height: 20vw;
+     top:84vw;
+     left:28vw;
+     z-index: 6;
+   }
+   .pena5{
+     position: absolute;
+     width: 58vw;
+     height: 20vw;
+     top:84vw;
+     left:28vw;
+     z-index: 6;
+   }
+   .boble{
+     position: absolute;
+     width: 6vw;
+     height: 8vw;
+     top:86vw;
+     left:41vw;
+     animation: none;
+     z-index: 0;
+   }
+   .boble1{
+     position: absolute;
+     width: 6vw;
+     height: 8vw;
+     top:86vw;
+     left:41vw;
+     z-index: 4;
+     animation: none;
+     animation-delay: 1s;
+   }
+   .palka{
+     position: absolute;
+     width: 5vw;
+     height: 12vw;
+     top:78vw;
+     left:60vw;
+     animation: none;
+   }
+   .obj1 {
+     position: absolute;
+     width: 38vw;
+     height: 46vw;
+     top:18vw;
+   }
+   .dote1{
+     position: absolute;
+     width: 2vw;
+     height: 2vw;
+     top: 59vw;
+     left: 3vw;
+   }
+  .bubble1{
+     position: absolute;
+     width: 20vw;
+     height: 19vw;
+     top: 46vw;
+     left: 3vw;
+   }
+   .obj2{
+     position: absolute;
+     width: 17vw;
+     height: 16vw;
+     top:45vw;
+     left: 34vw;
+   }
+   .dote2{
+     position: absolute;
+     width: 2vw;
+     height: 2vw;
+     top:46vw;
+     left: 50vw;
+   }
+   .bubble2{
+     position: absolute;
+     width: 19vw;
+     height: 12vw;
+     top: 40vw;
+     left: 53vw;
+   }
+   .obj3{
+     position: absolute;
+     width: 16vw;
+     height: 16vw;
+     top:99vw;
+     left: 3vw;
+   }
+   .dote3{
+     position: absolute;
+     width: 2vw;
+     height: 2vw;
+     top: 114vw;
+     left: 4vw;
+   }
+   .bubble3{
+     position: absolute;
+     width: 16vw;
+     height: 13vw;
+     top: 84vw;
+     left: 1vw;
+   }
+   .obj4{
+     position: absolute;
+     width: 15vw;
+     height: 14vw;
+     top:66vw;
+     left: 13vw;
+   }
+   .dote4{
+     position: absolute;
+     width: 2vw;
+     height: 2vw;
+     top: 79vw;
+     left: 24vw;
+   }
+   .bubble4{
+     position: absolute;
+     width: 14vw;
+     height: 13vw;
+     top: 71vw;
+     left: 27vw;
+   }
+   .obj5{
+     position: absolute;
+     width: 39vw;
+     height: 42vw;
+     top:178vw;
+     left: 0vw;
+   }
+   .dote5{
+     position: absolute;
+     width: 2vw;
+     height: 2vw;
+     top: 199vw;
+     left: 22vw;
+   }
+   .bubble5{
+     position: absolute;
+     width: 22vw;
+     height: 21vw;
+     top: 194vw;
+     left: 24vw;
+   }
+   .obj6{
+     position: absolute;
+     width: 28vw;
+     height: 27vw;
+     top:132vw;
+     left: 4vw;
+   }
+   .dote6{
+     position: absolute;
+     width: 2vw;
+     height: 2vw;
+     top: 158vw;
+     left: 19vw;
+   }
+   .bubble6{
+     position: absolute;
+     width: 16vw;
+     height: 13vw;
+     top: 151vw;
+     left: 23vw;
+   }
+   .obj7{
+     position: absolute;
+     width: 16vw;
+     height: 16vw;
+     top:157vw;
+     left: 35vw;
+   }
+   .dote7{
+     position: absolute;
+     width: 2vw;
+     height: 2vw;
+     top: 169vw;
+     left: 33vw;
+   }
+   .bubble7{
+     position: absolute;
+     width: 15vw;
+     height: 12vw;
+     top: 167vw;
+     left: 18vw;
+    }
+  .obj8{
+     position: absolute;
+     width: 37vw;
+     height: 28vw;
+     top:168vw;
+     left: 32vw;
+  }
+  .dote8{
+     position: absolute;
+     width: 2vw;
+     height: 2vw;
+     top: 187vw;
+     left: 63vw;
+  }
+  .bubble8{
+     position: absolute;
+     width: 16vw;
+     height: 13vw;
+     top: 185vw;
+     left: 66vw;
+  }
+  .obj9{
+     position: absolute;
+     width: 40vw;
+     height: 50vw;
+     top: 170vw;
+     left: 70vw;
+  }
+   .dote9{
+     position: absolute;
+     width: 2vw;
+     height: 2vw;
+     top: 200vw;
+     left: 80vw;
+   }
+   .bubble9{
+     position: absolute;
+     width: 17vw;
+     height: 14vw;
+     top: 201vw;
+     left: 64vw;
+  }
+   .obj10{
+     position: absolute;
+     width: 28vw;
+     height: 28vw;
+     top: 142vw;
+     left: 64vw;
+   }
+   .dote10{
+     position: absolute;
+     width: 2vw;
+     height: 2vw;
+     top: 146vw;
+     left: 79vw;
+   }
+   .bubble10{
+     position: absolute;
+     width: 16vw;
+     height: 13vw;
+     top: 142vw;
+     left: 83vw;
+   }
+   .obj11{
+     position: absolute;
+     width: 15vw;
+     height: 14vw;
+     top:112vw;
+     left: 88vw;
+   }
+   .dote11{
+     position: absolute;
+     width: 2vw;
+     height: 2vw;
+     top: 120vw;
+     left: 85vw;
+   }
+   .bubble11{
+     position: absolute;
+     width: 15vw;
+     height: 13vw;
+     top: 123vw;
+     left: 77vw;
+   }
+   .obj12{
+     position: absolute;
+     width: 26vw;
+     height: 25vw;
+     top: 61vw;
+     left: 75vw;
+   }
+   .dote12{
+     position: absolute;
+     width: 2vw;
+     height: 2vw;
+     top: 82vw;
+     left: 95vw;
+   }
+   .bubble12{
+     position: absolute;
+     width: 15vw;
+     height: 12vw;
+     top: 59vw;
+     left: 94vw;
+   }
+   .obj13{
+     position: absolute;
+     width: 28vw;
+     height: 42vw;
+     top: 24vw;
+     left: 82vw;
+   }
+   .dote13{
+     position: absolute;
+     width: 2vw;
+     height: 2vw;
+     top: 55vw;
+     left: 87vw;
+   }
+   .bubble13{
+     position: absolute;
+     width: 17vw;
+     height: 14vw;
+     top: 51vw;
+     left: 69vw;
+   }
+   .fon1{
+     width: 100vw;
+     left: 0vw;
+     height: 216vw;
+     position: absolute;
+     animation: fon1 3s linear infinite;
+   }
+   .fon2{
+     width: 100vw;
+     left: 0vw;
+     height: 216vw;
+     position: absolute;
+     animation: fon2 3s linear infinite;
+   }
+   .fon3{
+     width: 100vw;
+     left: 0vw;
+     height: 216vw;
+     position: absolute;
+     animation: fon3 3s linear infinite;
+   }
+   .fon4{
+     width: 100vw;
+     left: 0vw;
+     height: 216vw;
+     position: absolute;
+     animation: fon4 3s linear infinite;
+   }
+   .bottle{
+     width: 94vw;
+     left: 3vw;
+     top: 55vw;
+     height: 133vw;
+     position: absolute;
+     animation: bottle 2s linear infinite;
+   }
+   .titlescreen3{
+     width: 64vw;
+     left: 30vw;
+     top: 8vw;
+     height: 14vw;
+     position: absolute;
+   }
+   .text1{
+     width: 13vw;
+     left: 2vw;
+     top: 196vw;
+     height: 6vw;
+     position: absolute;
+   }
+   .text2{
+     width: 13vw;
+     left: 85vw;
+     top: 195vw;
+     height: 5vw;
+     position: absolute;
+   }
+   .etiketka1{
+     width: 17vw;
+     left: 50vw;
+     top: 71vw;
+     height: 15vw;
+     position: absolute;
+   }
+   .etiketka2{
+     width: 34vw;
+     left: 60vw;
+     top: 68vw;
+     height: 29vw;
+     position: absolute;
+     animation: etiketka2 2s linear infinite;
+   }
+   .s1{
+     position: absolute;
+     width: 13vw;
+     height: 12vw;
+     left: 55vw;
+     top: 3vw;
+     animation: s1 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(32deg);
+   }
+   .s2{
+     position: absolute;
+     width: 13vw;
+     height: 12vw;
+     left: 5vw;
+     top: 33vw;
+     animation: s2 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(15deg);
+  }
+   .s3{
+      position: absolute;
+      width: 13vw;
+      height:12vw;
+      left: 18vw;
+      top: 75vw;
+      animation: s3 1s linear infinite;
+      animation-direction: alternate;
+      transform: rotate(-20deg);
+   }
+   .s4{
+     position: absolute;
+     width: 13vw;
+     height: 12vw;
+     left: 72vw;
+     top: 52vw;
+     animation: s4 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(17deg);
+   }
+   .s5{
+     position: absolute;
+     width: 13vw;
+     height: 12vw;
+     left: 84vw;
+     top: 21vw;
+     animation: s5 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(18deg);
+   }
+   .s6{
+     position: absolute;
+     width: 13vw;
+     height: 12vw;
+     left: 3vw;
+     top: 107vw;
+     animation: s6 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(-29deg);
+   }
+   .s7{
+     position: absolute;
+     width: 13vw;
+     height: 12vw;
+     left: 13vw;
+     top: 152vw;
+     animation: s6 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(-29deg);
+   }
+   .s8{
+     position: absolute;
+     width: 13vw;
+     height: 12vw;
+     left: 37vw;
+     top: 201vw;
+     animation: s8 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(-8deg);
+   }
+   .s9{
+     position: absolute;
+     width: 13vw;
+     height: 12vw;
+     left: 77vw;
+     top: 168vw;
+     animation: s9 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(-20deg);
+   }
+   .s10{
+     position: absolute;
+     width: 13vw;
+     height: 12vw;
+     left: 76vw;
+     top: 109vw;
+     animation: s9 1s linear infinite;
+     animation-direction: alternate;
+     transform: rotate(-20deg);
+   }
+   .b{
+     width: 14vw;
+     left: 2vw;
+     top: 185vw;
+     height: 6vw;
+     position: absolute;
+   }
+}
